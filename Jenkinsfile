@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage("Run Mario"){
+        stage("Run Mario again"){
             steps{
                 sh "docker run -d -p 80:8080 pengbai/docker-supermario"
             }
